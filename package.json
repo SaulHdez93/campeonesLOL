@@ -1,0 +1,21 @@
+{
+  "name": "dew",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve -d dist src/index.html",
+    "build": "parcel build -d build --public-url /https://github.com/SaulHdez93/campeonesLOL.git ",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.13.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
